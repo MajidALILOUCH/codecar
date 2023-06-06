@@ -1,0 +1,52 @@
+/* start forms */
+.forms {
+  padding-top: var(--main-padding-top);
+  padding-bottom: var(--main-padding-bottom);
+}
+.forms .container .form-holder h2 {
+  color: var(--black-1);
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+.forms .container .form-holder form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.forms .container .form-holder form .input-holder {
+  width: calc(50% - 10px);
+}
+@media (max-width: 767px) {
+  .forms .container .form-holder form .input-holder {
+    width: 100%;
+  }
+}
+.forms .container .form-holder form .textarea-holder {
+  width: 100%;
+}
+.forms .container .form-holder form label {
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+}
+.forms .container .form-holder form .main-input {
+  width: 100%;
+  margin-top: 15px;
+  padding: 20px;
+  border-radius: var(--main-border);
+  background-color: var(--lightGreen-1);
+  border: 0;
+}
+.forms .container .form-holder form .main-input:focus {
+  outline: none;
+}
+.forms .container .form-holder form textarea {
+  height: 200px;
+  resize: none;
+}
+.forms .container .form-holder form input[type="submit"] {
+  border: 0;
+  padding: 15px 40px;
+}
+/* end forms */
