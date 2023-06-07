@@ -51,6 +51,11 @@
 }
 .landing .container .img-holder img {
   max-width: 100%;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 @media (max-width: 767px) {
   .landing .container .img-holder img {
